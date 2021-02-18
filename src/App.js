@@ -1,13 +1,23 @@
-import React,{component} from "react";
+import React, { Component } from "react";
 import styled from "styled-components";
-import Menubar from "./hoc/Menu/Menubar.js"
+import Menubar from "./hoc/Menu/Menubar";
 
-function App() {
-  return (
-    <div>
-      <Menubar />
-    </div>
-  );
+class App extends Component {
+  state = {
+    page: 0
+  };
+  showPage = no => {
+    alert(no);
+    this.setState({ page: no });
+  };
+
+  render() {
+    return (
+      <div>
+        <Menubar showPage={this.showPage} />
+      </div>
+    );
+  }
 }
 
 export default App;

@@ -44,13 +44,20 @@ class Menubar extends React.Component {
   renderMenus = arr => {
     return arr.map((a, index) => {
       return (
-        <MenuButton key={index} icon={a.icon} color={a.color} text={a.text} />
+        <MenuButton showPage={this.props.showPage} 
+        index={index}
+        key={index} 
+        icon={a.icon} 
+        color={a.color} 
+        text={a.text} />
       );
     });
   };
 
   render() {
-    return <Menu>{this.renderMenus(this.menus)}</Menu>;
+    return (
+        <Menu>{this.renderMenus(this.menus)}</Menu>
+    );
   }
 }
 

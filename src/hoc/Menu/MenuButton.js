@@ -25,7 +25,7 @@ const ButtonStyle = styled.div`
 class MenuButton extends React.Component {
   render() {
     return (
-      <ButtonStyle color={this.props.color}>
+      <ButtonStyle onMouseOver={() => this.props.showPage(this.props.index) } color={this.props.color}>
         <Icon
           name={this.props.icon}
           style={{ fontSize: "50px", transform: "translateY(30%)" }}
