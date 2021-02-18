@@ -19,15 +19,38 @@ const Menu = styled.div`
 `;
 
 class Menubar extends React.Component {
+  menus = [
+    {
+      icon: "user",
+      color: "black",
+      text: "Intro"
+    },
+    {
+      icon: "react",
+      color: "#5CD3F3",
+      text: "ReactJS"
+    },
+    {
+      icon: "node",
+      color: "#87BF00",
+      text: "NodeJS"
+    },
+    {
+      icon: "coffee",
+      color: "#DE6800",
+      text: "Java"
+    }
+  ];
+  renderMenus = arr => {
+    return arr.map((a, index) => {
+      return (
+        <MenuButton key={index} icon={a.icon} color={a.color} text={a.text} />
+      );
+    });
+  };
+
   render() {
-    return (
-      <Menu>
-        <MenuButton />
-        <MenuButton />
-        <MenuButton />
-        <MenuButton />
-      </Menu>
-    );
+    return <Menu>{this.renderMenus(this.menus)}</Menu>;
   }
 }
 
