@@ -86,10 +86,15 @@ class Golang extends Component {
                 <div className="flex-6">Framework React.JS를 사용해서 자신의 포트폴리오를 만들어 보겠습니다.
                  HTML,CSS 를 모르셔도 기본 프로그램을 아시면 충분히 따라오실수 있다고 생각합니다.</div>
               </FlexBox>
-              <FlexBox style={{ marginTop: "7px" }}>
+              <FlexBox style={{ marginTop: "20px" }}>
                 <div className="flex-2 label">강좌 링크</div>
                 <div className="flex-1">&nbsp;</div>
                 <div className="flex-6"><a onClick={() => {window.open('https://www.youtube.com/watch?v=cksh7QzYeY8&list=PLHGvDasahwZPmRmNYhaJCoTFf1N9YQaia','_blank')}} >linkUrl</a></div>
+              </FlexBox>
+              <FlexBox style={{ marginTop: "20px" }}>
+                <div className="flex-2 label">Source</div>
+                <div className="flex-1">&nbsp;</div>
+                <div className="flex-6"><a onClick={() => {window.open('https://github.com/gold0073/portfolio','_blank')}} >linkUrl</a></div>
               </FlexBox>
             </div>
           </FlexBox>

@@ -88,15 +88,20 @@ class Golang extends Component {
                 Heroku 에서 제공하는 무료 PostgreDB 를 사용해서
                 3 tier 웹을 완성합니다.</div>
               </FlexBox>
-              <FlexBox style={{ marginTop: "7px" }}>
+              <FlexBox style={{ marginTop: "20px" }}>
                 <div className="flex-2 label">강좌 링크</div>
                 <div className="flex-1">&nbsp;</div>
                 <div className="flex-6"><a onClick={() => {window.open('https://www.youtube.com/playlist?list=PLy-g2fnSzUTDALoERcKDniql16SAaQYHF','_blank')}} >linkUrl</a></div>
               </FlexBox>
-              <FlexBox style={{ marginTop: "7px" }}>
+              <FlexBox style={{ marginTop: "20px" }}>
                 <div className="flex-2 label">Site</div>
                 <div className="flex-1">&nbsp;</div>
                 <div className="flex-6"><a onClick={() => {window.open('https://vast-cliffs-67812.herokuapp.com/ ','_blank')}} >linkUrl</a></div>
+              </FlexBox>
+              <FlexBox style={{ marginTop: "20px" }}>
+                <div className="flex-2 label">Source</div>
+                <div className="flex-1">&nbsp;</div>
+                <div className="flex-6"><a onClick={() => {window.open('https://github.com/gold0073/goWeb/tree/heroku','_blank')}} >linkUrl</a></div>
               </FlexBox>
             </div>
           </FlexBox>
