@@ -7,9 +7,9 @@ const Menu = styled.div`
   display: flex;
   justify-content: space-between;
   bottom: 0;
-  width: 560px;
+  width: 620px;
   background-color: #efefef;
-  height: 120px;
+  height: 155px;
   left: 50%;
   padding: 15px 30px;
   padding-bottom: 10px;
@@ -36,9 +36,14 @@ class Menubar extends React.Component {
       text: "NodeJS"
     },
     {
+      icon: "node js",
+      color: "#FF28A7",
+      text: "NodeJS RestApi (MongoDB)"
+    },
+    {
       icon: "meh",
       color: "#DE6800",
-      text: "GoLang"
+      text: "GoLang PostgraDB SQLite3"
     }
   ];
   renderMenus = arr => {

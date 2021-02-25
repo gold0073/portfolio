@@ -75,7 +75,7 @@ class Intro extends Component {
               <img className="me" src={introimg} />
             </div>
             <div className="flex-6" style={{ paddingTop: "30px" }}>
-              <div className="job">FullStack Developer</div>
+              <div className="job">Study PortFolio</div>
               <div className="name">Jy Park</div>
               <br />
               <FlexBox>

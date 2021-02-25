@@ -89,12 +89,12 @@ class Golang extends Component {
               <FlexBox style={{ marginTop: "20px" }}>
                 <div className="flex-2 label">강좌 링크</div>
                 <div className="flex-1">&nbsp;</div>
-                <div className="flex-6"><a onClick={() => {window.open('https://www.youtube.com/watch?v=cksh7QzYeY8&list=PLHGvDasahwZPmRmNYhaJCoTFf1N9YQaia','_blank')}} >linkUrl</a></div>
+                <div className="flex-6"><a onClick={() => {window.open('https://www.youtube.com/watch?v=cksh7QzYeY8&list=PLHGvDasahwZPmRmNYhaJCoTFf1N9YQaia','_blank')}} >유트브 강좌 </a></div>
               </FlexBox>
               <FlexBox style={{ marginTop: "20px" }}>
                 <div className="flex-2 label">Source</div>
                 <div className="flex-1">&nbsp;</div>
-                <div className="flex-6"><a onClick={() => {window.open('https://github.com/gold0073/portfolio','_blank')}} >linkUrl</a></div>
+                <div className="flex-6"><a onClick={() => {window.open('https://github.com/gold0073/portfolio','_blank')}} >git-Sourcelink</a></div>
               </FlexBox>
             </div>
           </FlexBox>

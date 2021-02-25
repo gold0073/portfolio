@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Intro from "../../components/Intro/Intro";
 import Reactjs from "../../components/Reactjs/Reactjs";
 import Nodejs from "../../components/Nodejs/Nodejs";
+import NodejsMongo from "../../components/NodejsMongo/NodejsMongo";
 import Golang from "../../components/Golang/Golang";
 
 class Page extends Component {
@@ -14,6 +15,8 @@ class Page extends Component {
       case 2:
         return <Nodejs />;  
       case 3:
+        return <NodejsMongo />;    
+      case 4:
         return <Golang />;   
       default:
         return <Intro />;
