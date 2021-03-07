@@ -3,19 +3,19 @@ import styled from "styled-components";
 import MenuButton from "./MenuButton";
 
 const Menu = styled.div`
-  position: fixed;
+  position: relative;
   display: flex;
   justify-content: space-between;
   bottom: 0;
-  width: 620px;
+  width: 650px;
   background-color: #efefef;
   height: 155px;
   left: 50%;
-  padding: 15px 30px;
+  padding: 15px 15px;
   padding-bottom: 10px;
   transform: translateX(-50%);
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 `;
 
 class Menubar extends React.Component {
@@ -24,6 +24,11 @@ class Menubar extends React.Component {
       icon: "user",
       color: "black",
       text: "Intro"
+    },
+    {
+      icon: "sitemap",
+      color: "#440EF8",
+      text: "MicroService VueJS Maria,Postgre"
     },
     {
       icon: "react",
@@ -44,7 +49,8 @@ class Menubar extends React.Component {
       icon: "meh",
       color: "#DE6800",
       text: "GoLang PostgraDB SQLite3"
-    }
+    },
+    
   ];
   renderMenus = arr => {
     return arr.map((a, index) => {

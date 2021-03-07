@@ -4,6 +4,7 @@ import Reactjs from "../../components/Reactjs/Reactjs";
 import Nodejs from "../../components/Nodejs/Nodejs";
 import NodejsMongo from "../../components/NodejsMongo/NodejsMongo";
 import Golang from "../../components/Golang/Golang";
+import MicroService from "../../components/MicroService/MicroService";
 
 class Page extends Component {
   displayPage = no => {
@@ -11,13 +12,16 @@ class Page extends Component {
       case 0:
         return <Intro />;
       case 1:
-        return <Reactjs />;
+        return <MicroService />;  
       case 2:
-        return <Nodejs />;  
+        return <Reactjs />;
       case 3:
-        return <NodejsMongo />;    
+        return <Nodejs />;  
       case 4:
-        return <Golang />;   
+        return <NodejsMongo />;    
+      case 5:
+        return <Golang />;
+     
       default:
         return <Intro />;
     }
