@@ -11,7 +11,7 @@ const IntroContainer = styled.div`
   margin: 0 auto;
   margin-top: 40px;
   width: 620px;
-  height: 420px;
+  height: 380px;
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
   .label {
     font-weight: bold;
