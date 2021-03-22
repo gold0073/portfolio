@@ -12,7 +12,7 @@ const IntroContainer = styled.div`
   margin: 0 auto;
   margin-top: 40px;
   bottom: 20px;
-  width: 650px;
+  width: 620px;
   height: 380px;
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
   .label {
@@ -22,7 +22,7 @@ const IntroContainer = styled.div`
   }
   .me {
     width: 95%;
-    height: 300px;
+    height: 250px;
     cursor: pointer;
   }
   .job {

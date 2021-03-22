@@ -4,21 +4,26 @@ import { Icon } from "semantic-ui-react";
 import { FlexBox } from "../reusuable/styles";
 
 import nodejsimg from '../../img/nodejs.jpg';
+import doitnodejs from '../../img/doitnodejs.jpg';
+
 
 
 const IntroContainer = styled.div`
   position: relative;
   margin: 0 auto;
   margin-top: 40px;
+  bottom: 20px;
   width: 620px;
   height: 380px;
+  background-color: #F5F5F5;
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
   .label {
     font-weight: bold;
     text-align: right;
+    width: 280px;
   }
   .me {
-    width: 90%;
+    width: 95%;
     height: 250px;
     cursor: pointer;
   }
@@ -33,7 +38,7 @@ const IntroContainer = styled.div`
     margin-top: 5px;
     border-bottom: 0.5px solid black;
     padding-bottom: 10px;
-    width: 90%;
+    width: 95%;
   }
 `;
 
@@ -70,6 +75,43 @@ class NodeJs extends Component {
     return (
       <div>
         <IntroContainer>
+          <FlexBox>
+            <div className="flex-4" style={{ padding: "25px" }}>
+              <img 
+              onClick={() => {window.open('https://www.youtube.com/playlist?list=PLG7te9eYUi7tHH-hJ2yzBJ9h6dwBu1FUy','_blank')}}
+              className="me" 
+              src={doitnodejs} />
+            </div>
+            <div className="flex-6" style={{ paddingTop: "30px" }}>
+              <div className="job"></div>
+              <div className="name"> Do it NodeJs</div>
+              <br />
+              <FlexBox>
+                <div className="flex-2 label">개요</div>
+                <div className="flex-1">&nbsp;</div>
+                <div className="flex-6"> Do it NodeJs 프로그래밍 개정판</div>
+              </FlexBox>
+              <FlexBox style={{ marginTop: "20px" }}>
+                <div className="flex-2 label">강좌 링크</div>
+                <div className="flex-1">&nbsp;</div>
+                <div className="flex-6"><a onClick={() => {window.open('https://www.youtube.com/playlist?list=PLG7te9eYUi7tHH-hJ2yzBJ9h6dwBu1FUy','_blank')}} >유트브 강좌 </a></div>
+              </FlexBox>
+              <FlexBox style={{ marginTop: "20px" }}>
+                <div className="flex-2 label">Site</div>
+                <div className="flex-1">&nbsp;</div>
+                <div className="flex-6"><a onClick={() => {window.open('','_blank')}} ></a></div>
+              </FlexBox>
+              <FlexBox style={{ marginTop: "20px" }}>
+                <div className="flex-2 label">Source</div>
+                <div className="flex-1">&nbsp;</div>
+                <div className="flex-6"><a onClick={() => {window.open('','_blank')}} ></a></div>
+              </FlexBox>
+            </div>
+          </FlexBox>
+        </IntroContainer>
+        
+        <IntroContainer>
+
           <FlexBox>
             <div className="flex-4" style={{ padding: "25px" }}>
               <img 
