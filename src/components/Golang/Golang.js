@@ -2,70 +2,14 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import { Icon } from "semantic-ui-react";
 import { FlexBox } from "../reusuable/styles";
+import { IntroContainerBottom } from "../reusuable/styles";
+import { IntroContainer } from "../reusuable/styles";
+import { IconsBox } from "../reusuable/styles";
+
 
 import golangimg from '../../img/golang.jpg';
 
 
-const IntroContainer = styled.div`
-  position: relative;
-  margin: 0 auto;
-  margin-top: 20px;
-  width: 620px;
-  height: 380px;
-  background-color: #F5F5F5;
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
-  .label {
-    font-weight: bold;
-    text-align: right;
-    width: 280px;
-  }
-  .me {
-    width: 95%;
-    height: 250px;
-    cursor: pointer;
-  }
-  .job {
-    color: #aaa;
-    font-size: 18px;
-    letter-spacing: 1.5px;
-  }
-  .name {
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 5px;
-    border-bottom: 0.5px solid black;
-    padding-bottom: 10px;
-    width: 95%;
-  }
-`;
-
-const IconsBox = styled.div`
-  position: absolute;
-  bottom: 0;
-  height: 70px;
-  background-color: #555;
-  width: 100%;
-  padding: 20px 0;
-  .myicon {
-    cursor: pointer;
-    transition: 0.5s;
-  }
-  .github:hover {
-    color: #302f2f !important;
-  }
-  .naver:hover {
-    color: #4064ac !important;
-  }
-  .linkedin:hover {
-    color: #2464ad !important;
-  }
-  .youtube:hover {
-    color: #ff0000 !important;
-  }
-  .google:hover {
-    color: #ad2f20 !important;
-  }
-`;
 
 class Golang extends Component {
   render() {
@@ -86,8 +30,8 @@ class Golang extends Component {
               <FlexBox>
                 <div className="flex-2 label">개요</div>
                 <div className="flex-1">&nbsp;</div>
-                <div className="flex-6">Go 를 이용해서 웹프로그래밍을 배워봅니다.
-                쿨라우드 Heroku , 무료 PostgreDB 를 사용해서
+                <div className="flex-6">Golang 사용
+                무료 클라우드 Heroku , 무료 PostgreDB 를 사용해서
                 3 tier 웹을 완성합니다.</div>
               </FlexBox>
               <FlexBox style={{ marginTop: "20px" }}>

@@ -2,69 +2,13 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import { Icon } from "semantic-ui-react";
 import { FlexBox } from "../reusuable/styles";
+import { IntroContainerBottom } from "../reusuable/styles";
+import { IntroContainer } from "../reusuable/styles";
+import { IconsBox } from "../reusuable/styles";
 
 import reactimg from '../../img/react.jpg';
+import XPreactimg from '../../img/XPReact.JPG';
 
-
-const IntroContainer = styled.div`
-  position: relative;
-  margin: 0 auto;
-  margin-top: 40px;
-  width: 620px;
-  height: 380px;
-  background-color: #F5F5F5;
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
-  .label {
-    font-weight: bold;
-    text-align: right;
-  }
-  .me {
-    width: 90%;
-    height: 250px;
-    cursor: pointer;
-  }
-  .job {
-    color: #aaa;
-    font-size: 18px;
-    letter-spacing: 1.5px;
-  }
-  .name {
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 5px;
-    border-bottom: 0.5px solid black;
-    padding-bottom: 10px;
-    width: 90%;
-  }
-`;
-
-const IconsBox = styled.div`
-  position: absolute;
-  bottom: 0;
-  height: 70px;
-  background-color: #555;
-  width: 100%;
-  padding: 20px 0;
-  .myicon {
-    cursor: pointer;
-    transition: 0.5s;
-  }
-  .github:hover {
-    color: #302f2f !important;
-  }
-  .naver:hover {
-    color: #4064ac !important;
-  }
-  .linkedin:hover {
-    color: #2464ad !important;
-  }
-  .youtube:hover {
-    color: #ff0000 !important;
-  }
-  .google:hover {
-    color: #ad2f20 !important;
-  }
-`;
 
 class Golang extends Component {
   render() {
@@ -99,6 +43,39 @@ class Golang extends Component {
               </FlexBox>
             </div>
           </FlexBox>
+        </IntroContainer>  
+
+        <IntroContainer>
+          <FlexBox>
+            <div className="flex-4" style={{ padding: "25px" }}>
+              <img 
+              className="me" 
+              src={XPreactimg} />
+            </div>
+            <div className="flex-6" style={{ paddingTop: "30px" }}>
+              <div className="job"></div>
+              <div className="name">소개 : React - windowXP</div>
+              <br />
+              <FlexBox>
+                <div className="flex-2 label">개요</div>
+                <div className="flex-1"></div>
+                <div className="flex-6">신기하네...나중에 분석 해보자....</div>
+              </FlexBox>
+              <FlexBox style={{ marginTop: "20px" }}>
+                <div className="flex-2 label">실행 페이지</div>
+                <div className="flex-1"></div>
+                <div className="flex-6"><a onClick={() => {window.open('https://winxp.now.sh','_blank')}} >LinkURL </a></div>
+              </FlexBox>
+              <FlexBox style={{ marginTop: "20px" }}>
+                <div className="flex-2 label">Source</div>
+                <div className="flex-1"></div>
+                <div className="flex-6"><a onClick={() => {window.open('https://github.com/ShizukuIchi/winXP','_blank')}} >git-Sourcelink</a></div>
+              </FlexBox>
+            </div>
+          </FlexBox>
+        </IntroContainer>  
+
+        <IntroContainerBottom>  
           <IconsBox>
             <FlexBox>
               <div className="flex-1" />
@@ -149,7 +126,7 @@ class Golang extends Component {
               <div className="flex-1" />
             </FlexBox>
           </IconsBox>
-        </IntroContainer>
+        </IntroContainerBottom>
       </div>
     );
   }

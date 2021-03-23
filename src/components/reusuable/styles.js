@@ -29,3 +29,98 @@ export const FlexBox = styled.div`
     flex: 9;
   }
 `;
+
+
+export const IntroContainerBottom = styled.div`
+  position: relative;
+  margin: 0 auto;
+  margin-top: -10px;
+  width: 620px;
+  height: 75px;
+  background-color: #F5F5F5;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+  .label {
+    font-weight: bold;
+    text-align: right;
+    width: 280px;
+  }
+  .me {
+    width: 95%;
+    height: 250px;
+    cursor: pointer;
+  }
+  .job {
+    color: #aaa;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+  }
+  .name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5px;
+    border-bottom: 0.5px solid black;
+    padding-bottom: 10px;
+    width: 95%;
+  }
+`;
+
+export const IntroContainer = styled.div`
+  position: relative;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 620px;
+  height: 350px;
+  background-color: #F5F5F5;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+  .label {
+    font-weight: bold;
+    text-align: right;
+    width: 280px;
+  }
+  .me {
+    width: 95%;
+    height: 250px;
+    cursor: pointer;
+  }
+  .job {
+    color: #aaa;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+  }
+  .name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5px;
+    border-bottom: 0.5px solid black;
+    padding-bottom: 10px;
+    width: 95%;
+  }
+`;
+
+export const IconsBox = styled.div`
+  position: absolute;
+  bottom: 20;
+  height: 75px;
+  background-color: #555;
+  width: 100%;
+  padding: 20px 0;
+  .myicon {
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .github:hover {
+    color: #302f2f !important;
+  }
+  .naver:hover {
+    color: #4064ac !important;
+  }
+  .linkedin:hover {
+    color: #2464ad !important;
+  }
+  .youtube:hover {
+    color: #ff0000 !important;
+  }
+  .google:hover {
+    color: #ad2f20 !important;
+  }
+`;

@@ -9,13 +9,14 @@ const Menu = styled.div`
   bottom: 0;
   width: 650px;
   background-color: #efefef;
-  height: 155px;
+  height: 170px;
   left: 50%;
   padding: 15px 15px;
   padding-bottom: 10px;
   transform: translateX(-50%);
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
+  font-weight: bold;
 `;
 
 class Menubar extends React.Component {
@@ -43,7 +44,7 @@ class Menubar extends React.Component {
     {
       icon: "node js",
       color: "#FF28A7",
-      text: "NodeJS RestApi (MongoDB)"
+      text: "NodeJS RestApi MongoDB"
     },
     {
       icon: "sitemap",
