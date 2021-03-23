@@ -6,14 +6,46 @@ import { FlexBox } from "../reusuable/styles";
 import microserviceimg from '../../img/msboard.jpg';
 import meactBoardImg from '../../img/reactBoard.JPG';
 
+const IntroContainerBottom = styled.div`
+  position: relative;
+  margin: 0 auto;
+  margin-top: -10px;
+  width: 620px;
+  height: 75px;
+  background-color: #F5F5F5;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+  .label {
+    font-weight: bold;
+    text-align: right;
+    width: 280px;
+  }
+  .me {
+    width: 95%;
+    height: 250px;
+    cursor: pointer;
+  }
+  .job {
+    color: #aaa;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+  }
+  .name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5px;
+    border-bottom: 0.5px solid black;
+    padding-bottom: 10px;
+    width: 95%;
+  }
+`;
 
 const IntroContainer = styled.div`
   position: relative;
   margin: 0 auto;
-  margin-top: 40px;
-  bottom: 20px;
+  margin-top: 20px;
   width: 620px;
   height: 380px;
+  background-color: #F5F5F5;
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
   .label {
     font-weight: bold;
@@ -154,6 +186,8 @@ class MicorService extends Component {
               </FlexBox>
             </div>
           </FlexBox>
+        </IntroContainer>
+        <IntroContainerBottom> 
           <IconsBox>
             <FlexBox>
               <div className="flex-1" />
@@ -204,7 +238,7 @@ class MicorService extends Component {
               <div className="flex-1" />
             </FlexBox>
           </IconsBox>
-        </IntroContainer>
+        </IntroContainerBottom>
       </div>
     );
   }

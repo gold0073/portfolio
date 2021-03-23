@@ -12,6 +12,7 @@ const IntroContainer = styled.div`
   margin-top: 40px;
   width: 620px;
   height: 380px;
+  background-color: #F5F5F5;
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
   .label {
     font-weight: bold;

@@ -10,17 +10,20 @@ import reqctimg from '../../img/react.jpg';
 const IntroContainer = styled.div`
   position: relative;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 20px;
   width: 620px;
   height: 380px;
+  background-color: #F5F5F5;
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
   .label {
     font-weight: bold;
     text-align: right;
+    width: 280px;
   }
   .me {
-    width: 90%;
+    width: 95%;
     height: 250px;
+    cursor: pointer;
   }
   .job {
     color: #aaa;
@@ -33,7 +36,7 @@ const IntroContainer = styled.div`
     margin-top: 5px;
     border-bottom: 0.5px solid black;
     padding-bottom: 10px;
-    width: 90%;
+    width: 95%;
   }
 `;
 

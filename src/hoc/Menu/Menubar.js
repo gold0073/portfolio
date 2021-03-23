@@ -26,10 +26,10 @@ class Menubar extends React.Component {
       text: "Intro"
     },
     {
-      icon: "sitemap",
-      color: "#440EF8",
-      text: "MicroService VueJS Maria,Postgre"
-    },
+      icon: "meh",
+      color: "#DE6800",
+      text: "GoLang PostgraDB SQLite3"
+    },    
     {
       icon: "react",
       color: "#5CD3F3",
@@ -46,9 +46,9 @@ class Menubar extends React.Component {
       text: "NodeJS RestApi (MongoDB)"
     },
     {
-      icon: "meh",
-      color: "#DE6800",
-      text: "GoLang PostgraDB SQLite3"
+      icon: "sitemap",
+      color: "#440EF8",
+      text: "MicroService VueJS Maria,Postgre"
     },
     
   ];

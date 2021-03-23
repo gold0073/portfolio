@@ -12,7 +12,7 @@ class Page extends Component {
       case 0:
         return <Intro />;
       case 1:
-        return <MicroService />;  
+        return <Golang />;
       case 2:
         return <Reactjs />;
       case 3:
@@ -20,8 +20,7 @@ class Page extends Component {
       case 4:
         return <NodejsMongo />;    
       case 5:
-        return <Golang />;
-     
+        return <MicroService />;  
       default:
         return <Intro />;
     }
