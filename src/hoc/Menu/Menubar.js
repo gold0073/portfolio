@@ -49,7 +49,7 @@ class Menubar extends React.Component {
     {
       icon: "sitemap",
       color: "#440EF8",
-      text: "MicroService VueJS Maria,Postgre"
+      text: "MicroService NodeJs VueJS Maria,Postgre"
     },
     
   ];
