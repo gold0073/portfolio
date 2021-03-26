@@ -3,11 +3,12 @@ import styled from "styled-components";
 import MenuButton from "./MenuButton";
 
 const Menu = styled.div`
-  position: relative;
+  position: fixed;
+  z-index: 10;
   display: flex;
   justify-content: space-between;
-  bottom: 0;
-  width: 650px;
+  top: 0;
+  width: 750px;
   background-color: #efefef;
   height: 170px;
   left: 50%;
@@ -29,7 +30,7 @@ class Menubar extends React.Component {
     {
       icon: "meh",
       color: "#DE6800",
-      text: "GoLang PostgraDB SQLite3"
+      text: "GoLang PostgreDB SQLite3 HirokuCloud"
     },    
     {
       icon: "react",
@@ -49,7 +50,7 @@ class Menubar extends React.Component {
     {
       icon: "sitemap",
       color: "#440EF8",
-      text: "MicroService NodeJs VueJS Maria,Postgre"
+      text: "MicroService NodeJs,VueJS Maria,Postgre"
     },
     
   ];

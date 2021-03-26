@@ -6,6 +6,7 @@ import NodejsMongo from "../../components/NodejsMongo/NodejsMongo";
 import Golang from "../../components/Golang/Golang";
 import MicroService from "../../components/MicroService/MicroService";
 
+
 class Page extends Component {
   displayPage = no => {
     switch (no) {

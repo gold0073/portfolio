@@ -16,7 +16,7 @@ const ButtonStyle = styled.div`
   }
   span {
     position: absolute;
-    top: 55%;
+    top: 40%;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -31,7 +31,7 @@ class MenuButton extends React.Component {
       >
         <Icon
           name={this.props.icon}
-          style={{ fontSize: "40px", transform: "translateY(30%)" }}
+          style={{ fontSize: "40px", transform: "translateY(0%)" }}
         />
         <span>{this.props.text}</span>
       </ButtonStyle>

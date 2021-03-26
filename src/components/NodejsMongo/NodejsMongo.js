@@ -47,56 +47,7 @@ class NodeJs extends Component {
               </FlexBox>
             </div>
           </FlexBox>
-          <IconsBox>
-            <FlexBox>
-              <div className="flex-1" />
-              <div className="flex-1">
-                  <Icon
-                    onClick={() => {window.open('http://github.com/gold0073','_blank')}}
-                    className="myicon github"
-                    name="github"
-                    size="big"
-                    style={{ color: "white" }}
-                  />
-              </div>
-              <div className="flex-1">
-                <Icon
-                 onClick={() => {window.open('http://www.naver.com','_blank')}}   
-                  className="myicon naver"
-                  name="globe"
-                  size="big"
-                  style={{ color: "white" }}
-                />
-              </div>
-              <div className="flex-1">
-                <Icon
-                  className="myicon linkedin"
-                  name="linkedin"
-                  size="big"
-                  style={{ color: "white" }}
-                />
-              </div>
-              <div className="flex-1">
-                <Icon
-                  onClick={() => {window.open('http://google.com','_blank')}}
-                  className="myicon google"
-                  name="google plus"
-                  size="big"
-                  style={{ color: "white" }}
-                />
-              </div>
-              <div className="flex-1">
-                <Icon
-                  onClick={() => {window.open('http://youtube.com','_blank')}}
-                  className="myicon youtube"
-                  name="youtube"
-                  size="big"
-                  style={{ color: "white" }}
-                />
-              </div>
-              <div className="flex-1" />
-            </FlexBox>
-          </IconsBox>
+          
         </IntroContainer>
       </div>
     );
