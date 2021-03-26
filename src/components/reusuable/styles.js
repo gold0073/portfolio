@@ -33,13 +33,8 @@ export const FlexBox = styled.div`
   }
 `;
 
-
-export const IntroContainerBox = styled.div`
-  position : inherit
-  margin-top: 200px;
-`;
-
 export const IntroContainer = styled.div`
+  position: inherit;
   margin: 0 auto;
   margin-top: 20px;
   width: 620px;

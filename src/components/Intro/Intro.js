@@ -11,7 +11,7 @@ import introimg from '../../img/Intro.jpg';
 class Intro extends Component {
   render() {
     return (
-      <div>
+      <div style={{ paddingTop: "180px" }}>
         <IntroContainer>
           <FlexBox>
             <div className="flex-4" style={{ padding: "25px" }}>

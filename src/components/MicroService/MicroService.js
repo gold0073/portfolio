@@ -13,7 +13,7 @@ import meactBoardImg from '../../img/reactBoard.JPG';
 class MicorService extends Component {
   render() {
     return (
-      <div style={{ padding: "180px" }}>
+      <div style={{ paddingTop: "180px" }}>
         <IntroContainer>
           <FlexBox>
             <div className="flex-4" style={{ padding: "25px" }}>
