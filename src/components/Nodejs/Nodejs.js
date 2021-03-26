@@ -14,7 +14,7 @@ import doitnodejs from '../../img/doitnodejs.jpg';
 class NodeJs extends Component {
   render() {
     return (
-      <div style={{ paddingTop: "180px" }}>
+      <div style={{ paddingTop: "170px", paddingBottom: "100px" }}>
         <IntroContainer>
           <FlexBox>
             <div className="flex-4" style={{ padding: "25px" }}>

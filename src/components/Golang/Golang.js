@@ -9,7 +9,7 @@ import golangimg from '../../img/golang.jpg';
 class Golang extends Component {
   render() {
     return (
-      <div style={{ paddingTop: "180px" }}>
+      <div style={{ paddingTop: "170px", paddingBottom: "100px" }}>
         <IntroContainer>
           <FlexBox>
             <div className="flex-4" style={{ padding: "25px" }}>
