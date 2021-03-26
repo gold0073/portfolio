@@ -8,7 +8,7 @@ const Menu = styled.div`
   justify-content: space-between;
   top: 0;
   width: 680px;
-  background-color: #efefef;
+  background-color: #9999;
   height: 170px;
   left: 50%;
   padding: 15px 15px;
