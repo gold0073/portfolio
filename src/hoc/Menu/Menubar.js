@@ -4,11 +4,10 @@ import MenuButton from "./MenuButton";
 
 const Menu = styled.div`
   position: fixed;
-  z-index: 10;
   display: flex;
   justify-content: space-between;
   top: 0;
-  width: 750px;
+  width: 680px;
   background-color: #efefef;
   height: 170px;
   left: 50%;

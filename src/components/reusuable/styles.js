@@ -34,10 +34,9 @@ export const FlexBox = styled.div`
 `;
 
 
-export const IntroContainerBottom = styled.div`
-  margin-bottom: 100px;
-  width: 620px;
-  height: 10px;
+export const IntroContainerBox = styled.div`
+  position : inherit
+  margin-top: 200px;
 `;
 
 export const IntroContainer = styled.div`

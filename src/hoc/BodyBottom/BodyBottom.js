@@ -11,7 +11,7 @@ const Menu = styled.div`
   display: flex;
   justify-content: space-between;
   bottom: 0;
-  width: 750px;
+  width: 680px;
   background-color: #555;
   height: 75px;
   left: 50%;
@@ -27,7 +27,7 @@ const bottomContainer = styled.div`
   position: relative;
   margin: 0 auto;
   margin-top: 0px;
-  width: 620px;
+  width: 680px;
   background-color: #F5F5F5;
   .label {
     font-weight: bold;

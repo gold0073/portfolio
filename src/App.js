@@ -15,7 +15,6 @@ class App extends Component {
     return (
       <div>
         <Menubar showPage={this.showPage} />
-   		  <div style={{ marginTop: "15%"}}></div>
         <Page page={this.state.page} />
         <BodyBottom page={this.state.page} />
       </div>

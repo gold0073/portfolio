@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import { Icon } from "semantic-ui-react";
 import { FlexBox } from "../reusuable/styles";
-import { IntroContainerBottom } from "../reusuable/styles";
+import { IntroContainerBox } from "../reusuable/styles";
 import { IntroContainer } from "../reusuable/styles";
 import { IconsBox } from "../reusuable/styles";
 
@@ -10,11 +10,10 @@ import { IconsBox } from "../reusuable/styles";
 import microserviceimg from '../../img/msboard.jpg';
 import meactBoardImg from '../../img/reactBoard.JPG';
 
-
 class MicorService extends Component {
   render() {
     return (
-      <div>
+      <div style={{ padding: "180px" }}>
         <IntroContainer>
           <FlexBox>
             <div className="flex-4" style={{ padding: "25px" }}>
