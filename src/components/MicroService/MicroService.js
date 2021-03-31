@@ -18,7 +18,7 @@ class MicorService extends Component {
           <FlexBox>
             <div className="flex-4" style={{ padding: "25px" }}>
               <img 
-              onClick={() => {window.open('http://localhost:8080/#/','_blank')}}
+              onClick={() => {window.open('http://localhost:3020/#/','_blank')}}
               className="me" 
               src={microserviceimg} />
             </div>
@@ -40,7 +40,7 @@ class MicorService extends Component {
               <FlexBox style={{ marginTop: "20px" }}>
                 <div className="flex-2 label">Site</div>
                 <div className="flex-1">&nbsp;</div>
-                <div className="flex-6"><a onClick={() => {window.open('http://localhost:8080/#/','_blank')}} >linkUrl</a></div>
+                <div className="flex-6"><a onClick={() => {window.open('http://localhost:3020/#/','_blank')}} >linkUrl</a></div>
               </FlexBox>
               <FlexBox style={{ marginTop: "20px" }}>
                 <div className="flex-2 label">서버 Source</div>
